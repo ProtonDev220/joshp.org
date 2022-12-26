@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+}
+
+.thin {
+    font-weight: 200;
+}
+.bold {
+    font-weight: 700;
+}

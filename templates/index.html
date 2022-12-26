@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JoshP.org</title>
+
+        <link rel="stylesheet" href="/static/styles/common.css">
+        <link rel="stylesheet" href="/static/styles/nav.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/bcef333271.js" crossorigin="anonymous"></script>
+
+        <script src="/static/scripts/dropdowns/account_nav.js" defer></script>
+    </head>
+    <body>
+        <div id="nav-wrapper">
+            <div id="nav">
+                <div id="nav-left">
+                    <div id="nav-title">
+                        <span class="bold">JoshP</span>
+                        <span class="thin">.org</span>
+                    </div>
+                </div>
+                <div id="nav-center">
+                    <div id="nav-search-wrapper">
+                        <input type="text" id="nav-search" placeholder="Search">
+                    </div>
+                </div>
+                <div id="nav-right">
+                    <div class="nav-button-wrapper">
+                        <div class="nav-dropdown-toggle nav-button" id="account-dropdown-toggle">
+                            <p>Account</p>
+                        </div>
+                        <div class="nav-dropdown-body" id="account-dropdown-body" style="display: none;">
+                            <a class="nav-dropdown-option" id="account-sign-in" href="/signin">
+                                Sign In
+                            </a>
+                            <a class="nav-dropdown-option" id="account-sign-in" href="/signup">
+                                Sign Up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
