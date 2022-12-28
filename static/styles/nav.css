@@ -99,6 +99,7 @@
     justify-content: center;
 
     color: white;
+    text-decoration: none;
 
     transition: 0.1s;
 }
@@ -151,5 +152,19 @@
 .nav-dropdown-option:hover {
     background-color: #273345;
 
+    cursor: pointer;
+}
+
+#nav-back-wrapper {
+    background-color: transparent;
+    border: none;
+
+    padding-left: 30px;
+}
+#nav-back {
+    color: white;
+    font-size: 25px;
+}
+#nav-back {
     cursor: pointer;
 }

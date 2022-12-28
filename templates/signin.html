@@ -8,6 +8,7 @@
 
         <link rel="stylesheet" href="/static/styles/common.css">
         <link rel="stylesheet" href="/static/styles/nav.css">
+        <link rel="stylesheet" href="/static/styles/signin.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,23 +22,29 @@
         <div id="nav-wrapper">
             <div id="nav">
                 <div id="nav-left">
+                    <button id="nav-back-wrapper" onclick="history.back()">
+                        <i id="nav-back" class="fa-solid fa-left-long"></i>
+                    </button>
+                </div>
+                <div id="nav-center">
                     <div id="nav-title">
                         <span class="bold">JoshP</span>
                         <span class="thin">.org</span>
                     </div>
                 </div>
-                <div id="nav-center">
-                    <div id="nav-search-wrapper">
-                        <input type="text" id="nav-search" placeholder="Search">
-                    </div>
+            </div>
+        </div>
+        <div id="sign-in-wrapper">
+            <div id="sign-in">
+                <h1 class="bold">Sign In</h1>
+                <div id="sign-in-inputs">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
                 </div>
-                <div id="nav-right">
-                    <div class="nav-button-wrapper">
-                        <a class="nav-button" id="account-sign-in" href="/signin">
-                            Sign In
-                        </a>
-                    </div>
-                </div>
+                <input type="submit"></input>
+                <button id="sign-up-button">Create Account</button>
             </div>
         </div>
     </body>
