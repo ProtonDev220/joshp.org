@@ -48,6 +48,7 @@ body {
 }
 
 #sign-in > h1 {
+    font-family: 'Poppins';
     color: #fafcff;
 }
 
